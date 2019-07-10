@@ -1,2 +1,1 @@
-# rushilsingh.github.io
-IO
+Personal website of Rushil Singh
