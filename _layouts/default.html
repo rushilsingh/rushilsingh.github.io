@@ -1,14 +1,49 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-          <link rel="manifest" href="/site.webmanifest">
-          <meta name="msapplication-TileColor" content="#da532c">
-          <meta name="theme-color" content="#ffffff">
+          <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+          <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+          <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+<div class="wrapper">
+      <header>
+
+    <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+ <ul class="downloads"><a href="/assets/img/Resume_RushilSingh.pdf" download="Resume - Rushil Singh">Download <strong>Resume</strong></a></ul>
+      </header>
+    </div>
+<section>
+
+    <nav class="navigator" style = "position: fixed; top: 0; width: 100%;">
+    {% for item in site.docs %}
+   <li class="navigator" > <a href="{{ item.url }}">{{ item.title }}</a></li>
+
+  {% endfor %}
+    </nav>
+
+{{ content }}
+
+</section>
             <script src="https://platform-api.sharethis.com/js/sharethis.js#property=5d2f14e2735046001257ff7a&product=inline-follow-buttons"></script>
-            <!-- Global site tag (gtag.js) - Google Analytics -->
+
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144360919-1"></script>
             <script>
                   window.dataLayer = window.dataLayer || [];
@@ -18,22 +53,9 @@
                   gtag('config', 'UA-144360919-1');
             </script>
 
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <style>
-      img.logo{
-      height: 5%;
-      width: 5%;
-    }
-    </style>
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{content}}
+    
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+ <footer style=" position: fixed; bottom: 0; width: 100%;"><div class="sharethis-inline-follow-buttons" style="display: block;"></div> <br />&copy; Copyright 2021 Rushil Singh <br /></footer>
   </body>
-  <br /><br />
-  <footer><div class="sharethis-inline-follow-buttons"></div> <br />&copy; Copyright 2021 Rushil Singh <br /></footer>
 </html>
-
-
-
