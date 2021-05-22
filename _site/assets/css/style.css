@@ -134,9 +134,9 @@
 
 body { background-color: #fff; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #727272; font-weight: 400; }
 
-nav.navigator { height: 60px; padding: 0; background: #f4f4f4; border-radius: 5px; border: 1px solid #e0e0e0; position: fixed; top: 0; width: 100%; font-size: 32px; }
+nav.navigator { height: 60px; padding: 0; background: #fff; position: fixed; top: 0; width: 100%; font-size: 32px; }
 
-li.navigator { display: inline; }
+li.navigator { height: 60px; border-radius: 5px; border: 1px solid #e0e0e0; background: #f4f4f4; display: inline-block; }
 
 h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
 
