@@ -25,9 +25,9 @@ export const experienceEntries = [
     company: "Synamedia",
     startDate: new Date("2024-01-01"),
     endDate: null,
-    location: "Bengaluru, Karnataka, India",
+    location: "Remote",
     description:
-      "Working on cloud infrastructure and backend components for video applications. Led the development of a cross-platform dynamic ad insertion solution for video applications",
+      "Working on cloud infrastructure and backend components for video applications.",
     width: 150,
   },
   {
@@ -38,7 +38,7 @@ export const experienceEntries = [
     endDate: new Date("2023-12-31"),
     location: "Bengaluru, Karnataka, India",
     description:
-      "Contributed to pioneering SaaS anti-piracy solutions, focusing on data engineering and backend development. Led the creation of a management portal using the MERN stack, streamlining product operations.",
+      "Contributed to pioneering SaaS anti-piracy solutions, focusing on data engineering and backend development. Led the creation of a configuration management portal that streamlined product operations.  Led the development of a cross-platform dynamic ad insertion solution for video applications",
     width: 150,
   },
   {
@@ -49,7 +49,7 @@ export const experienceEntries = [
     endDate: new Date("2020-02-04"),
     location: "Bengaluru, Karnataka, India",
     description:
-      "Integral in developing Synamedia's anti-piracy solution, focusing on Python frameworks. Recognized for high-quality software solutions, Spearheading to a full-time position at Synamedia.",
+      "Integral in developing Synamedia's anti-piracy solution, leading to a full-time position at Synamedia.",
     width: 150,
   },
   {
@@ -60,7 +60,7 @@ export const experienceEntries = [
     endDate: new Date("2019-07-31"),
     location: "Bengaluru, Karnataka, India",
     description:
-      "Focused on SDN/NFV solutions, managing device orchestration and developing resource adaptors.",
+      "Contributed to developing a product to orchestrate network devices and virtual appliances. Developed Resource Adapters to communicate with devices on the south-bound interface using device-specific protocols and converted retrieved data to JSON for use by other north-bound REST applications",
     width: 150,
   },
   {
